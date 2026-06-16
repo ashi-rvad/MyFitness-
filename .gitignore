@@ -1,0 +1,18 @@
+# Global ignores
+node_modules/
+.env
+.env.*
+*.log
+.DS_Store
+
+# Backend specific
+backend/node_modules/
+backend/.env
+backend/test.js
+backend/test2.js
+backend/test3.js
+
+# Frontend specific
+frontend/node_modules/
+frontend/dist/
+frontend/.env
