@@ -31,11 +31,13 @@ const AICoach = () => {
     setLoading(true);
 
     try {
-      const response = await fetch('/api/ai/chat', {
+      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const response = await fetch(`${API_URL}/api/ai/chat`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
+        credentials: 'include',
         body: JSON.stringify({ message: input }),
       });
 
