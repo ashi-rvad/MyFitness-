@@ -102,10 +102,10 @@ const Register = () => {
                 className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-primary-500"
                 {...registerField('activityLevel')}
               >
-                <option value="sedentary">Sedentary</option>
-                <option value="light">Light Activity</option>
-                <option value="moderate">Moderate Activity</option>
-                <option value="active">Active</option>
+                <option value="Sedentary">Sedentary</option>
+                <option value="Lightly Active">Lightly Active</option>
+                <option value="Moderately Active">Moderately Active</option>
+                <option value="Very Active">Very Active</option>
               </select>
             </div>
             <div>
@@ -114,9 +114,9 @@ const Register = () => {
                 className="w-full bg-slate-800 border border-slate-700 rounded-lg px-4 py-2 text-white focus:outline-none focus:border-primary-500"
                 {...registerField('fitnessGoal')}
               >
-                <option value="weight_loss">Weight Loss</option>
-                <option value="maintenance">Maintenance</option>
-                <option value="muscle_gain">Muscle Gain</option>
+                <option value="Weight Loss">Weight Loss</option>
+                <option value="Maintenance">Maintenance</option>
+                <option value="Muscle Gain">Muscle Gain</option>
               </select>
             </div>
           </div>
