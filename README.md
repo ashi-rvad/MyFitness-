@@ -83,8 +83,8 @@ The application will now be running at `http://localhost:5173`!
 
 FitMentor is live and deployed in the cloud!
 
-- **Frontend App:** Hosted on Vercel
-- **Backend API:** Hosted on Render at `https://myfitness-7d93.onrender.com`
+- **Frontend App:** Hosted on Vercel at [https://my-fitness-rosy.vercel.app](https://my-fitness-rosy.vercel.app)
+- **Backend API:** Hosted on Render at [https://myfitness-7d93.onrender.com](https://myfitness-7d93.onrender.com)
 
 *(If you clone this project, simply change the `VITE_API_URL` environment variable in Vercel to point to your deployed backend!)*
 
