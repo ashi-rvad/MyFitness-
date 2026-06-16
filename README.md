@@ -81,10 +81,12 @@ The application will now be running at `http://localhost:5173`!
 
 ## ☁️ Deployment
 
-This repository is strictly structured for easy deployment on modern cloud platforms.
+FitMentor is live and deployed in the cloud!
 
-- **Frontend Deployment:** Deploy the `/frontend` directory directly to [Vercel](https://vercel.com/) or [Netlify](https://www.netlify.com/). No extra configuration required.
-- **Backend Deployment:** Deploy the `/backend` directory to [Render](https://render.com/) or [Railway](https://railway.app/). Set the root directory to `backend`, build command to `npm install`, and start command to `npm start`.
+- **Frontend App:** Hosted on Vercel
+- **Backend API:** Hosted on Render at `https://myfitness-7d93.onrender.com`
+
+*(If you clone this project, simply change the `VITE_API_URL` environment variable in Vercel to point to your deployed backend!)*
 
 ---
 

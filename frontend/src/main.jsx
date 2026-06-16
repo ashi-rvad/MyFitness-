@@ -8,7 +8,7 @@ import ErrorBoundary from './components/ErrorBoundary.jsx';
 import axios from 'axios';
 
 // Configure Axios for Production Deployment
-axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+axios.defaults.baseURL = import.meta.env.VITE_API_URL || 'https://myfitness-7d93.onrender.com';
 axios.defaults.withCredentials = true;
 
 const queryClient = new QueryClient();

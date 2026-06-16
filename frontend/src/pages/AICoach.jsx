@@ -31,7 +31,7 @@ const AICoach = () => {
     setLoading(true);
 
     try {
-      const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000';
+      const API_URL = import.meta.env.VITE_API_URL || 'https://myfitness-7d93.onrender.com';
       const response = await fetch(`${API_URL}/api/ai/chat`, {
         method: 'POST',
         headers: {
